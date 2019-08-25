@@ -14,7 +14,7 @@
 </div>
  <div class="cg">
     <div class="dao">
-        <a href="header.html" target="_blank">首页</a>
+        <a id="in"  target="_blank">首页</a>
         <a href="details.html">关于行走空间</a>
         <a href="#">主创设计师</a>
         <a href="#">设计作品</a>
@@ -216,4 +216,8 @@
             $('#container').hide()
         }
     })
+    var taio=document.getElementById("in");
+    taio.onclick=function(){
+        location.href='index.html'
+    }
 </script>
