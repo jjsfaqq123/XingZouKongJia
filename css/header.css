@@ -41,7 +41,11 @@
 }
 .dao>a{
   padding-right:35px;
-  color:#fff;
+  color:#fff !important;
+}
+.dao>a:hover{
+  cursor: pointer;
+  text-decoration: underline;
 }
 #global_nav{
   width:100%;
