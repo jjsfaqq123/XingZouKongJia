@@ -4,6 +4,7 @@ body{
     line-height: 1.42857143;
     color:#333;
     background-color:#fff;
+    box-sizing: border-box;
 }
 #global_nav{
     width:100%;
@@ -41,6 +42,7 @@ body{
 }
 #global_nav>.center>.mobileNav>.left>img{
     vertical-align: middle;
+    width:970px;
 }
 #global_nav>.center>.mobileNav>.left>span{
     color:#fff;
@@ -244,13 +246,12 @@ body{
     text-decoration: underline;
 }
 #ejmain{
-    width:1200px;
     height:auto;
     overflow: hidden;
     margin: 0 auto;
 }
 #aboutcont{
-    width:960px;
+    width:1300px;
     height:auto;
     overflow: hidden;
     float: right;
@@ -287,11 +288,9 @@ body{
     height:auto;
     overflow: hidden;
 }
-#aboutcont>.commcontent>.pic img{
-    width:100%;
-}
+
 #aboutcont .thecontent{
-    width:100%;
+    width:1000px;
     height:auto;
     overflow: hidden;
     padding-top:15px;
@@ -300,6 +299,7 @@ body{
     font-size:14px;
     line-height: 200%;
     color:#333333;
+
 }
 #aboutcont .thecontent>p{
     text-align: center;
@@ -410,7 +410,7 @@ dl{
     height:60px;
     overflow: hidden;
     background:#fc595a;
-    margin: 0 auto;
+    margin-left:145px;
     text-align: center;
     line-height: 64px;
     font-size:22px;
@@ -454,12 +454,12 @@ dl{
     height:auto;
     overflow: hidden;
 }
-#aboutcont .pic img{
-    width:100%;
-}
 .commContent{
+    width:1000px;
     background:url('../boot/img/details/bgn62.jpg')top repeat-x;
+
 }
+
 
 
 
