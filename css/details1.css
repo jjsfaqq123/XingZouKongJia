@@ -206,30 +206,57 @@ body{
         background-color:transparent;
         text-decoration: none;
 }
-#sjslist .row .comm a img{
+#sjslist >.row> .comm a>img{
     width:395px;
     height:305px;
 }
-#sjslist .row .comm  .she{
+#sjslist >.row> .comm  a .she{
+    width:398px;
+    height:305px; 
+}
+#sjslist >.row> .comm  a .she:hover{
     width:395px;
     height:305px;
-   position: absolute;
-   top:166px;
-   left:162px;
-   display: none;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top:0;
+    background:url('../../boot/img/details/bgn65.png') no-repeat;
+    display: block;
 }
-
-#sjslist .row .comm .shs{
-    width:395px;
-    height:305px;   
-    position:absolute;
-    top:198px;
-    left:114px;
-    display: none
+#sjslist >.row> .comm  a .she b{
+    width:400px;
+    height:40px;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    left: 0px;
+    bottom: 124px;
+    font-size:18px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: normal;
+    opacity: 0;
 }
-#sjslist .row .comm .e :hover{
-display: block;
-color:red;
+#sjslist >.row> .comm  a .she b:hover{
+    opacity: 1;
+}
+#sjslist >.row> .comm  a .she em:hover{
+    opacity: 1;
+}
+#sjslist >.row> .comm  a .she em{
+    width:400px;
+    height:45px;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    left: 0px;
+    bottom: 78px;
+    font-size:22px;
+    text-align: center;
+    line-height: 45px;
+    font-weight: normal;
+    opacity: 0;
 }
 #global_bottom{
     width:100%;
@@ -341,4 +368,8 @@ color:red;
     position: relative;
     right:-19%;
     bottom:2px;
+  }
+  #s1{
+     width:1200px;
+     text-align: center; 
   }
