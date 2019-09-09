@@ -63,7 +63,7 @@
   width:100%;
   height:auto;
   padding-top:0px;
-  padding-bottom:25px;
+  padding-bottom:7px;
 }
 @media(max-width:767px){
   .visvle-xs{
@@ -95,7 +95,7 @@
 }
 #global_nav>.center>.commm{
   width:1200;
-  height:50px;
+  height:33px;
   overflow: hidden;
   margin: 0 auto;
   position:relative;
@@ -110,7 +110,7 @@
 }
 #global_nav>.center>.commm>.commnav>ul{
   list-style: none;
-  padding:0px;
+  margin-top:-16px;
 }
 #global_nav>.center>.commm>.commnav>ul>li{
   width:auto;

@@ -23,7 +23,7 @@
         <a href="#">在线留言</a>
     </div>
     <div id="global_nav" style="position:fixed;display:block;top:0px;">
-        <div class="center">
+        <div class="center" style="display:none">
            <div class="mobileNav visvle-xs"></div>
            <div class="left">
                <img src="boot/img/header/bgn51.png" alt="">
@@ -199,25 +199,26 @@
     window.onscroll=function(){
             var t =document.documentElement.scrollTop||document.body.scrollTop;
             console.log(t);
+            var center=document.getElementsByClassName('center')[0]
            if(t<800){
-              container.style.display='none';
+              center.className="show"
            }else{
-            container.style.display="block";
+            cennter.className="";
            }
       }
 </script> -->
-<!-- <script>
+<script>
     $(window).scroll(function(){
         var t =document.documentElement.scrollTop||document.body.scrollTop; 
         console.log(t)
         if(t<800){
-           $('#container').show()
+           $('.center').hide()
         }else{
-            $('#container').hide()
+            $('.center').show()
         }
     })
     var taio=document.getElementById("in");
     taio.onclick=function(){
         location.href='index.html'
-    } -->
+    }
 </script>
